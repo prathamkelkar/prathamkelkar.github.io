@@ -171,4 +171,9 @@ body {
   animation: fadeIn 0.8s ease-out;
 }
 
+html {
+    background-color: #080404;
+}
+
+
 
