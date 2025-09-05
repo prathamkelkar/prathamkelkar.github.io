@@ -7,7 +7,6 @@ html {
 body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    background-color: #080404;
 }
 
 /* Gradient text */
@@ -170,10 +169,4 @@ body {
 .animate-fadeIn {
   animation: fadeIn 0.8s ease-out;
 }
-
-html {
-    background-color: #080404;
-}
-
-
 
