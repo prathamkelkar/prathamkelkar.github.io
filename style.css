@@ -1,14 +1,33 @@
 /* ==========================================================================
-   CUSTOM CURSOR
+   CUSTOM CURSORS BY INTERACTION STATE
    ========================================================================== */
+
+/* 1. Default / Navigation / Scrolling Cursor (Your local PNG image) */
 html, 
-body, 
-a, 
-button, 
-[role="button"] {
-  cursor: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMy41IDMuNUwzLjUgMTguNVE5IDEzIDE3LjUgMTIuNVoiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIzLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==') 3 3, auto !important;
+body {
+  cursor: url('./c7e102c4c06a505401e594f861ca35b3_icon-removebg-preview.png') 0 0, auto;
 }
 
+/* 2. Text Hover Cursor (Sleek, high-contrast white tech I-beam caret) */
+p, 
+h1, 
+h2, 
+h3, 
+.bio, 
+.project-desc, 
+.mono-tag {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" viewBox="0 0 16 24"><path d="M 4 2 L 12 2 M 8 2 L 8 22 M 4 22 L 12 22" stroke="%23ffffff" stroke-width="2.5" stroke-linecap="round"/></svg>') 8 12, text;
+}
+
+/* 3. Link & Interactive Hover Cursor (Switches to site accent cyan #38bdf8) */
+a, 
+button, 
+[role="button"], 
+.project-card, 
+.social-links a, 
+.project-link {
+  cursor: url('./k.png') 4 4, pointer !important;
+}
 /* ==========================================================================
    1. VARIABLES & RESET
    ========================================================================== */
