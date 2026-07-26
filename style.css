@@ -185,6 +185,20 @@ main {
   border-color: var(--accent);
 }
 
+/* Inline links inside Bio paragraphs */
+.bio a {
+  color: var(--text-main);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border-hover);
+  padding-bottom: 1px;
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.bio a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 /* ==========================================================================
    4. PROJECTS SECTION
    ========================================================================== */
