@@ -1,4 +1,15 @@
 /* ==========================================================================
+   CUSTOM CURSOR
+   ========================================================================== */
+html, 
+body, 
+a, 
+button, 
+[role="button"] {
+  cursor: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMy41IDMuNUwzLjUgMTguNVE5IDEzIDE3LjUgMTIuNVoiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIzLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==') 3 3, auto !important;
+}
+
+/* ==========================================================================
    1. VARIABLES & RESET
    ========================================================================== */
 :root {
